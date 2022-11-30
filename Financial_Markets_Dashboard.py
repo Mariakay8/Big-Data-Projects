@@ -29,9 +29,7 @@ from PIL import Image
 # HEADER
 #==============================================================================
 
-#st.set_page_config(page_title="Financial Dashboard", layout="wide")
 st.set_page_config(page_title='Financial Markets Dashboard', page_icon='🎯', initial_sidebar_state = 'auto')
-
 
 # Add dashboard title and description
 st.title("S&P500 Stock Performance")
@@ -46,7 +44,7 @@ st.sidebar.subheader("Choose a stock and start exploring!")
 st.sidebar.info('Switch to dark mode for a better user experience', icon="ℹ️")
 
 # Add an image
-image = Image.open(Pic.PNG)
+image = Image.open("Pic.PNG")
 st.sidebar.image(image, use_column_width=True)
 
 # Get the list of stock tickers from S&P500
@@ -54,7 +52,6 @@ ticker_list = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_comp
 
 # Add a dropdown menu to select the stock names
 ticker = st.sidebar.selectbox('Select Ticker', ticker_list)
-#ticker_selected = yf.Ticker(ticker)
 
 # Add a button to update the stock data
 get = st.sidebar.button("Show Data 👈", key="get")
