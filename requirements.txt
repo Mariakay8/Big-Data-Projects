@@ -5,5 +5,4 @@ numpy
 datetime
 matplotlib
 plotly
-PIL
 numerize
