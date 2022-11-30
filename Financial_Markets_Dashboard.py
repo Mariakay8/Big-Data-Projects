@@ -20,7 +20,6 @@ import numpy as np
 import datetime
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-from PIL import Image
 from datetime import datetime, timedelta
 from numerize import numerize
 from plotly.subplots import make_subplots
@@ -46,7 +45,7 @@ st.sidebar.subheader("Choose a stock and start exploring!")
 st.sidebar.info('Switch to dark mode for a better user experience', icon="ℹ️")
 
 # Add an image
-image = Image.open(r'C:\Users\mkarakoulian1\Desktop\Financial Programming - Python\Individual Project\Individual Project - Financial Markets Dashboard\Pic.png')
+image = Image.open(Pic.PNG)
 st.sidebar.image(image, use_column_width=True)
 
 # Get the list of stock tickers from S&P500
