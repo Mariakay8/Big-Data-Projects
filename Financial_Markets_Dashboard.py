@@ -20,6 +20,7 @@ import numpy as np
 import datetime
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+from PIL import Image 
 from datetime import datetime, timedelta
 from numerize import numerize
 from plotly.subplots import make_subplots
