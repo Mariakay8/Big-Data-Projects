@@ -44,7 +44,7 @@ st.sidebar.subheader("Choose a stock and start exploring!")
 st.sidebar.info('Switch to dark mode for a better user experience', icon="ℹ️")
 
 # Add an image
-image = Image.open("Pic.PNG")
+image = Image.open("Financial Markets Streamlit App/Pic.PNG")
 st.sidebar.image(image, use_column_width=True)
 
 # Get the list of stock tickers from S&P500
