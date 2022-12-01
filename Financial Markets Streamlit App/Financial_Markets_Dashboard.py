@@ -23,7 +23,6 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 from numerize import numerize
 from plotly.subplots import make_subplots
-from PIL import Image
 
 #==============================================================================
 # HEADER
