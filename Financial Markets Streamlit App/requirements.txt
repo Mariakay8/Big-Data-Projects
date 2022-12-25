@@ -6,3 +6,4 @@ numpy==1.23.5
 matplotlib==3.6.2
 numerize==0.12
 datetime==4.7
+yahoo_fin==0.8.9
