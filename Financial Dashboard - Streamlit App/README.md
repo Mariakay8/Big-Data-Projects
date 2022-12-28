@@ -4,4 +4,4 @@ The main purpose of this assignment was to showcase Python programming skills on
 
 ![image](https://user-images.githubusercontent.com/116012520/209799316-9b73ce4e-0d39-4262-bc62-dc75657ab3eb.png)
 ![image](https://user-images.githubusercontent.com/116012520/209799367-67947e51-fdcc-4a1b-a15b-24c655d0c203.png)
-![image](https://user-images.githubusercontent.com/116012520/209799422-eab0a593-e6b1-45e7-95ed-8d52088f2233.png)
+![image](https://user-images.githubusercontent.com/116012520/209799720-fdf1c1b8-6d2e-405c-a462-3fe7a4a9df31.png)
