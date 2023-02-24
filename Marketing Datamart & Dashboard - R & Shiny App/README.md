@@ -1,6 +1,5 @@
 The project is an R programming assignment to create a marketing datamart on customer level and a dashboard using Shiny app for the online sports gambling website BWIN.
-
-The goal of this project was to provide customer descriptives, analyse their betting behaviour in a period of 8 months, and come up with marketing insights for the  company. 
+The goal is to provide customer descriptives, analyse their betting behaviour during a period of 8 months, and come up with marketing insights for the company. 
 
 Shiny Dashboard link: https://mkarakoulian.shinyapps.io/BWIN_Dashboard/?_ga=2.260091983.359045978.1671741479-752874449.1671741479
 
